@@ -11,6 +11,20 @@
 # Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
 #
 .utmp/
+
+# Keep the original demo locally; its Unity-provided model is not redistributed.
+/Assets/MecanimControl/Demo/
+/Assets/MecanimControl/Demo.meta
+
+# Local Asset Store publishing tools are not part of the runtime source release.
+/Packages/com.unity.asset-store-tools/
+
+# Local credentials and environment overrides.
+.env
+.env.*
+!.env.example
+*.pem
+*.pfx
 /[Ll]ibrary/
 /[Tt]emp/
 /[Oo]bj/
